@@ -6,6 +6,8 @@ authors = ["SuperInstance"]
 description = "FLUX bytecode assembler, disassembler, and validator"
 license = "MIT"
 repository = "https://github.com/SuperInstance/flux-compiler-rs"
+homepage = "https://github.com/SuperInstance/flux-compiler-rs"
+readme = "README.md"
 keywords = ["flux", "bytecode", "assembler", "vm"]
 categories = ["compilers", "encoding"]
 
