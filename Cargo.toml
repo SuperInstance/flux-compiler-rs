@@ -1,0 +1,23 @@
+[package]
+name = "si-flux-compiler"
+version = "0.1.0"
+edition = "2021"
+authors = ["SuperInstance"]
+description = "FLUX bytecode assembler, disassembler, and validator"
+license = "MIT"
+repository = "https://github.com/SuperInstance/flux-compiler-rs"
+keywords = ["flux", "bytecode", "assembler", "vm"]
+categories = ["compilers", "encoding"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+wasm = ["wasm-bindgen"]
+
+[dependencies]
+wasm-bindgen = { version = "0.2", optional = true }
+
+[dev-dependencies]
+pretty_assertions = "1"
